@@ -12,6 +12,7 @@
         $(document).ready(function () {
             $("#background").height($(window).height());
             var slideshow = new SlideShow();
+            slideshow.TransitionSlideShow();
             PresentationContent.Generate(slideshow);
             slideshow.BeginSlideShow();
         });

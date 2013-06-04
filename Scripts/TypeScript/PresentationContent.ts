@@ -3,6 +3,10 @@
 
 class PresentationContent {
     static Generate(slideshow: SlideShow): void {
+
+        //var newSlide = new Slide();
+
+
         slideshow.AddSlide("Introduction To TypeScript", "David Kennedy | davidwkennedy@gmail.com | @davidwkennedy | github.com/davidwkennedy");
         slideshow.AddSlide("What TypeScript Is Not", "A replacement or alternative to JavaScript. ");
         slideshow.AddSlide("What TypeScript Is", "A superset of JavaScript. A way to make large-scale JavaScript development easier. A way to make JavaScript development more comfortable for .NET developers. ");

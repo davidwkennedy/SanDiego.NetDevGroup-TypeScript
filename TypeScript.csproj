@@ -133,16 +133,16 @@
     <Content Include="Scripts\jQuery\jquery-ui-1.8.24.min.js" />
     <Content Include="Scripts\jQuery\jQuery.d.ts" />
     <Content Include="Scripts\jQuery\jQuery.js" />
-    <Content Include="Scripts\TypeScript\PresentationContent.js">
+    <None Include="Scripts\TypeScript\PresentationContent.js">
       <DependentUpon>PresentationContent.ts</DependentUpon>
-    </Content>
+    </None>
     <Content Include="Scripts\TypeScript\PresentationContent.min.js">
       <DependentUpon>PresentationContent.ts</DependentUpon>
     </Content>
     <Content Include="Scripts\TypeScript\PresentationContent.ts" />
-    <Content Include="Scripts\TypeScript\SildeShow.js">
+    <None Include="Scripts\TypeScript\SildeShow.js">
       <DependentUpon>SildeShow.ts</DependentUpon>
-    </Content>
+    </None>
     <Content Include="Scripts\TypeScript\SildeShow.min.js">
       <DependentUpon>SildeShow.ts</DependentUpon>
     </Content>
@@ -156,6 +156,9 @@
     <Content Include="Scripts\TypeScript\Slide.ts" />
     <Content Include="Style\Style.css" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\TypeScript\PresentationContent.min.js.map">
+      <DependentUpon>PresentationContent.js</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
