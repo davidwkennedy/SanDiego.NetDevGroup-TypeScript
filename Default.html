@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>TypeScript</title>
+    <link rel="stylesheet" href="Style/Style.css" />
+    <script src="Scripts/jQuery/jquery-1.8.2.js"></script>
+    <script src="Scripts/TypeScript/Slide.js"></script>
+    <script src="Scripts/TypeScript/SildeShow.js"></script>
+    <script src="Scripts/TypeScript/PresentationContent.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $("#background").height($(window).height());
+            var slideshow = new SlideShow();
+            PresentationContent.Generate(slideshow);
+            slideshow.BeginSlideShow();
+        });
+    </script>
+</head>
+<body >
+    <div id="background"></div>
+    <div id="SlideShowContainer" >
+        <h1 id="Title"></h1>
+        <p id="Description"></p>
+
+    </div>
+</body>
+</html>

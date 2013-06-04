@@ -1,0 +1,41 @@
+﻿body {
+    
+    color: #eee;
+    font-family: Corbel, Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size:30px;
+
+    
+}
+
+h1 {
+    color: rgb(169,223,233);
+    font-size:60px;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;   
+    background: #0e3647; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #0e3647 0%, #217ba2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#0e3647), color-stop(100%,#217ba2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #0e3647 0%,#217ba2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #0e3647 0%,#217ba2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #0e3647 0%,#217ba2 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #0e3647 0%,#217ba2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e3647', endColorstr='#217ba2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+#SlideShowContainer {
+        width: 80%;
+        margin: 100px auto;
+        position: relative;
+}
+
+
